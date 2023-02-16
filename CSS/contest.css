@@ -1,0 +1,39 @@
+form{
+    background-color: rgb(224, 240, 247);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: .2em .2em .5em #999;
+    border: 2px solid black;
+    padding: 1em;
+    width: 40em;
+    overflow: hidden;
+}
+ul li {
+    clear: both;
+    padding: 10px;
+    list-style-type: none;
+}
+label {
+    display: block;
+    float: left;
+    width: 10em;
+    text-align: right;
+    margin-right: .5em;
+    color: #04699d;
+
+}
+input.textinput{
+    width: 30em;
+    height: 2em;
+
+}
+textarea {
+    display: block;
+    width: 30em;
+    height: 5em;
+    border: 1px solid #666;
+    margin-bottom: 1em;
+    line-height: 1.25;
+    overflow: auto;
+    resize: none;
+}    

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <meta charset="utf-8" >
+    <link rel="stylesheet" href="/CSS/contest.css">
+</head>
+<body>
+    <h1>"Pimp My Shoes" Contest Entry Form</h1>
+    <blockquote><p>Want to trade in your old sneakers for a custom pair of Forcefields?
+        Make a case for why your shoes have got to go and you may be one of the ten lucky winners.
+    </p>
+</blockquote>
+<form action="http://www.learningwebdesign.com/contest.php" method="post">
+    <fieldset>
+<legend>Contest Entry Information</legend>
+<ul id="list">
+<li><label for="form-name">Name: </label><input type="text" name="username" ></li>
+<li><label for="form-email">Email: </label><input type="email" name="email"></li>
+<li><label for="form-telephone">Telphone</label> <input type="tel" name="telephone"></li>
+
+
+
+<li><label for="form-story"> shoes are SO old... <br>
+<textarea name="story"  placeholder="No more than 300 characters long"></textarea></label></li>
+</ul>
+
+<h2>Design your custom forcefields: </h2>
+<fieldset>
+<legend>Custom shoe design</legend>
+
+<fieldset>
+<legend>Color (choose one):</legend>
+<ul>
+    <li><label><input type="radio" name="color" value="red" >Red</label></li>
+    <li><label><input type="radio" name="color" value="blue" >Blue</label></li>
+    <li><label><input type="radio" name="color" value="black" >Black</label></li>
+    <li><label><input type="radio" name="color" value="silver" >Silver </label></li>
+</ul>
+</fieldset> 
+<fieldset>
+<legend>Features (choose as many as you want):</legend>
+<ul>
+    <li><label><input type="checkbox" name="features[]" value="sparkleyLaces">Sparkley laces</label></li>
+    <li><label><input type="checkbox" name="features[]" value="metallicLogo" checked="checked">Metallic logo</label></li>
+    <li><label><input type="checkbox" name="features[]" value="lightUp" >Light-up heels</label></li>
+    <li><label><input type="checkbox" name="features[]" value="mp3">MP3-enabled</label> </li>
+</ul>
+</fieldset>
+<fieldset>
+<legend>Size </legend>
+<labek>Sizes reflect standard men's sizing: </labek> <select size="1" name="size">
+   <option>5</option>
+   <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+    <option>11</option>
+    <option>12</option>
+    <option>13</option>
+    </select>
+</fieldset>
+</fieldset>
+
+<p>
+    <input type="submit" value="Pimp my shoes!">
+    <input type="reset" value = "reset">
+</p>
+</form>
+</body>
+</html>
